@@ -47,12 +47,16 @@ li {
     color: #6030b1;
 }
 
-.section:nth-child(even) {
+section:nth-child(even) {
     background-color: #f8f8f8;
 }
 
 .section__title {
     margin-bottom: 20px;
+}
+
+.section:nth-child(even) {
+    background-color: #f8f8f8;
 }
 
 /*NAVIGATION BAR*/
@@ -194,6 +198,7 @@ transform: scale(0.9)
     display: flex;
     width: 100%;
     flex-wrap: wrap;
+    padding: 24px 16px;
 }
 
 .language__name {
