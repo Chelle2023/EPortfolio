@@ -323,5 +323,25 @@ transform: scale(0.9)
     .footer__logo--img {
         width: 70px;
         height: 70px;
-        justify-content: center;
+    }
+
+    .footer__social--list,
+    .footer_copyright,
+    .footer__logo--popper {
+        color: #ffff
+    }
+
+    .footer__logo--popper {
+        position: absolute;
+        right: 0;
+        top: 30px;
+        font-weight: 700;
+    }
+
+    .footer__anchor {
+        margin-bottom: 20px;
+      position: relative;
+    }
+    .footer__anchor:hover .footer__logo--popper {
+        transform: translateX(60px);
     }
