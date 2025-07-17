@@ -20,6 +20,9 @@ p{
     line-height: 1.5;
     font-size: 16px;
 }
+.a {
+    text-decoration: none;
+}
 
 li {
     list-style-type: none;
@@ -78,7 +81,6 @@ nav {
 .nav__link--anchor {
     margin: 0 12px;
     color: #242424;
-    text-decoration: none;
     font-weight: 700;
 }
 
@@ -154,7 +156,6 @@ padding-top: 8px;
 .about-me__link {
     font-size:20px;
     color: black;
-    text-decoration: none;
     padding: 0 16px;
 }
 .about-me__img--container {
@@ -288,13 +289,39 @@ transform: scale(0.9)
    
    .project__description--link {
     font-size: 20px;
-    margin-right: 16px;
+    margin-right: 16px;llpcription--para,
    }
-   
-   .project__description--title,
-   .project__description--subtitle,
-   .project__description--para,
+
    .project__description--link {
-text-align: left;
-color: #fff;
-}
+    text-align: left;
+    color: #fff; }
+
+    /*FOOTER */
+
+    footer {
+        background-color: #242424;
+    }
+    
+    .footer__logo {
+        margin-bottom: 20px;
+    }
+    .footer__social--list {
+        width: 100%;
+        max-width: 500px;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
+    .footer__row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 8% 0;
+    }
+
+    .footer__logo--img {
+        width: 70px;
+        height: 70px;
+        justify-content: center;
+    }
